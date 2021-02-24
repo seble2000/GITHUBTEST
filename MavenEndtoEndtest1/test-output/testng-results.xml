@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27849" started-at="2021-02-22T16:46:32 CST" finished-at="2021-02-22T16:47:00 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27849" started-at="2021-02-22T16:46:32 CST" finished-at="2021-02-22T16:47:00 CST">
+      <class name="testcasespack.testcase2">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testcasespack.testcase2@7113b13f]" name="setExtent" is-config="true" duration-ms="575" started-at="2021-02-22T16:46:32 CST" finished-at="2021-02-22T16:46:33 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcasespack.testcase2@7113b13f]" name="setup" is-config="true" duration-ms="13961" started-at="2021-02-22T16:46:33 CST" finished-at="2021-02-22T16:46:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="browserization()[pri:0, instance:testcasespack.testcase2@7113b13f]" name="browserization" duration-ms="11096" started-at="2021-02-22T16:46:47 CST" finished-at="2021-02-22T16:46:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserization -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcasespack.testcase2@7113b13f]" name="teardown" is-config="true" duration-ms="25" started-at="2021-02-22T16:46:58 CST" finished-at="2021-02-22T16:46:58 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=browserization status=SUCCESS method=testcase2.browserization()[pri:0, instance:testcasespack.testcase2@7113b13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcasespack.testcase2@7113b13f]" name="endReport" is-config="true" duration-ms="2132" started-at="2021-02-22T16:46:58 CST" finished-at="2021-02-22T16:47:00 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcasespack.testcase2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
